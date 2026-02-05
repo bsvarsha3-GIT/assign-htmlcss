@@ -1,0 +1,597 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+}
+/* --------------------- header -------------------------------- */
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.logoName {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.logoName img {
+    width: 32px;
+    height: 32px;
+}
+
+/* Logo */
+.logof {
+   display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links div {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+
+/* Arrow */
+.arrow {
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+/* Right Section */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Language */
+.language {
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid #ECECEC;
+    border-radius: 6px;
+    padding: 6px 4px;
+}
+
+/* Search */
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+/* Button */
+.quote-btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+/* --------------------------- section1 ----------------------- */
+
+.section1 {
+    width: 100%;
+    height: 83px;
+    background: linear-gradient(to right, #000000, #4a4a4a);
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    color: white;
+}
+.div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.first {
+    font-size: 13px;
+}
+
+/* ---------------------------- section2 ------------------- */
+.section2{
+    /* border: solid black; */
+    display: flex;
+    gap: 10px;
+    padding-bottom: 0%;
+}
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  padding: 35px 56px  0px;
+}
+
+.filters button {
+  padding: 8px 11px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-size: 7px;
+  cursor: pointer;
+}
+
+.filters .active {
+  background: #000;
+  color: #fff;
+}
+
+/* ------------------------- section 3 ------------------- */
+.section3{
+    padding: 30px 40px;
+    background: #fff;
+}
+
+.child1 {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 28px; */
+   margin: 8px 8px;
+}
+
+.childborder {
+  background: #fafafa;
+  border-radius: 16px;
+  padding: 14px;
+  width: 33.33%;
+ 
+} 
+
+/* product image */
+.image {
+  /* height: 173px; */
+  /* width: fit-content; */
+  background: #f1f1f1;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.childborder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+}
+
+
+/* title */
+.childborder h4 {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+/* description */
+.childborder p {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+/* tags */
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tags span {
+  background: #eee;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+/* buttons */
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.chat,
+.request {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* chat button */
+.chat {
+  border: 1px solid #ddd;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.chat img {
+  width: 14px;
+  height: 14px;
+}
+
+/* request button */
+.request {
+  border: none;
+  background: #000;
+  color: #fff;
+}
+
+/* ------------------------ section 4 -------------------- */
+.section4 {
+  background: linear-gradient(90deg, #111, #333);
+  color: white;
+  padding: 23px 8%;
+}
+
+.sec4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sec4 h3 {
+  margin-bottom: 6px;
+}
+
+.sec4-btn {
+  background: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.sec4-btn:hover {
+  background: #ddd;
+}
+
+/* ------------------------ footer -------------------- */
+.footer {
+  background: #222;
+  color: #ccc;
+  padding: 60px 8% 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* left side */
+.footer-left {
+  width: 30%;
+}
+
+.logo-icon {
+  font-size: 22px;
+}
+
+.desc {
+  margin: 15px 0;
+  font-size: 11px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+.contactfoot {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 11px;
+}
+.contact p {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  font-size: 13px;
+  
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+  }
+/* buttons */
+.footer-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+.footer-buttons button {
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+  padding: 8px 14px;
+  border-radius: 6px;
+  align-items: center;
+  display: flex;
+  gap: 4px;
+}
+
+.footer-buttons button:hover {
+  background: #444;
+}
+
+/* right columns */
+
+.footer-right {
+  display: flex;
+  gap: 45px;
+  width: 70%;
+  flex: 1;
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.footer-col {
+  padding: 20px;
+}
+
+.footer-col h3 {
+  color: white;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.footer-col a {
+  display: block;
+  text-decoration: none;
+  color: #aaa;
+  font-size: 10px;
+  margin: 6px 0;
+  line-height: 1.8;
+}
+
+.footer-left .desc {
+  max-width: 72%px; 
+}
+
+.footer-col a:hover {
+  color: white;
+}
+
+/* bottom bar */
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #888;
+}
+
+.footer-bottom a {
+  color: #888;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: white;
+}
+
+/* --------------------------------- mobile view -------------------------------------------- */
+@media (max-width: 768px) {
+
+  /* ================= HEADER ================= */
+  .navbar {
+    padding: 12px 16px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .search-box {
+    padding: 6px;
+  }
+
+  .search-box input {
+    display: none;
+  }
+
+  .quote-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 6px;
+  }
+
+  .language {
+    display: none;
+  }
+
+  /* ================= SECTION 1 ================= */
+  .section1 {
+    height: auto;
+    padding: 16px;
+  }
+
+  .section1 h1 {
+    font-size: 18px;
+  }
+
+  .first {
+    font-size: 12px;
+  }
+
+  /* ================= FILTERS ================= */
+  .section2 {
+    overflow-x: auto;
+  }
+
+  .filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 16px;
+  }
+
+  .filters button {
+    white-space: nowrap;
+    font-size: 12px;
+  }
+
+  /* ================= PRODUCT GRID ================= */
+  .section3 {
+    padding: 16px;
+  }
+
+  .child1 {
+    margin: 0;
+  }
+
+  .childborder {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .image {
+    height: 140px;
+  }
+
+  .childborder h4 {
+    font-size: 13px;
+  }
+
+  .childborder p {
+    font-size: 11px;
+  }
+
+  .tags span {
+    font-size: 10px;
+    padding: 3px 6px;
+  }
+
+  /* ================= BUTTONS ================= */
+  .buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .chat,
+  .request {
+    font-size: 11px;
+    padding: 8px;
+  }
+
+  /* ================= CTA SECTION ================= */
+  .section4 {
+    padding: 20px 16px;
+  }
+
+  .sec4 {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .sec4 h3 {
+    font-size: 16px;
+  }
+
+  .sec4 p {
+    font-size: 12px;
+  }
+
+  .sec4-btn {
+    width: 100%;
+  }
+
+  /* ================= FOOTER ================= */
+  .footer {
+    padding: 30px 16px 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 100%;
+  }
+
+  .footer-right {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-col {
+    padding: 0;
+  }
+
+  .footer-col h3 {
+    font-size: 14px;
+  }
+
+  .footer-col a {
+    font-size: 11px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-buttons {
+    flex-direction: column;
+  }
+
+  .footer-buttons button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* ================= FOOTER BOTTOM ================= */
+  .footer-bottom {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    font-size: 11px;
+  }
+}
